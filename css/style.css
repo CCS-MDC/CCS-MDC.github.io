@@ -758,20 +758,20 @@ p {
     color:#181A1C;
 }
 .contact-form {
-    background:#fff;
-    background: rgba(255, 255, 255, 0.9);
+    background: #181a1c;
+    background: #181a1c;
     z-index:110;
     position:relative;
     margin-top:-25px;
     padding:20px;
 }
 .contact-form h3 {
-    color:#838589;
+    color:#33c4ff;
     padding-bottom:20px;
 }
 .message-btn {
-    border:1px solid #747C89;
-    color:#747C89;
+    border:1px solid #33c4ff;
+    color:#fff;
     background-color:transparent;
     padding:15px 30px;
     font-size:17px;
