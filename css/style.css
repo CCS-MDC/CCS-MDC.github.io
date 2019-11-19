@@ -725,9 +725,11 @@ p {
 .map-wrapper {
     position:relative;
     height:500px;
+    background: #181A1C url(../images/map.jpg) no-repeat center;
 }
 .map-canvas {
     position:absolute;
+    background: #181A1C url(../images/brand-bg.png) no-repeat center;
     margin-bottom:20px;
     width:100%;
     height:500px;

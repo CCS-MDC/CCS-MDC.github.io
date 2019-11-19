@@ -5,6 +5,7 @@
  * Author URL: http://graphberry.com
  * License: http://graphberry.com/pages/license
 -->
+
 <html lang="en">
     <head>
         <meta charset=utf-8>
@@ -48,11 +49,11 @@
                     <div class="nav-collapse collapse pull-right">
                         <ul class="nav" id="top-navigation">
                             <li class="active"><a href="#home">Home</a></li>
-                            <li><a href="#service">Services</a></li>
-                            <li><a href="#portfolio">Portfolio</a></li>
-                            <li><a href="#about">About</a></li>
-                            <li><a href="#clients">Clients</a></li>
-                            <li><a href="#price">Price</a></li>
+                            <li><a href="#service">About</a></li>
+                            <li><a href="#portfolio">Videos</a></li>
+                            <li><a href="#about">E-Board</a></li>
+<!--                            <li><a href="#clients">Clients</a></li>-->
+                            <li><a href="#price">Membership</a></li>
                             <li><a href="#contact">Contact</a></li>
                         </ul>
                     </div>
@@ -71,34 +72,34 @@
                 <div class="container">
                     <!-- Start first slide -->
                     <div class="da-slide">
-                        <h2 class="fittext2">Welcome to pluton theme</h2>
-                        <h4>Clean & responsive</h4>
-                        <p>When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane.</p>
+                        <h2 class="fittext2">Arduino Project.</h2>
+                        <h4>Toy Car Project: Making an auto car.</h4>
+                        <p>Work with a group of excited students to design, build, program a toy car, and make the car autonomous. Build circuits to connect different sensors like an ultrasonic sensor and other modules to the Arduino board and control the car movement.</p>
                         <a href="#" class="da-link button">Read more</a>
                         <div class="da-img">
-                            <img src="images/Slider01.png" alt="image01" width="320">
+                            <img src="images/arduino.png" alt="image01" width="320">
                         </div>
                     </div>
                     <!-- End first slide -->
                     <!-- Start second slide -->
                     <div class="da-slide">
-                        <h2>Easy management</h2>
-                        <h4>Easy to use</h4>
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                        <h2>HTML/Javascript Project</h2>
+                        <h4>CCS Website: Creatign a great Site</h4>
+                        <p>Collaborate with the Computer and Circuits Society Club team to create and improve the CCS club's website. Learn to use Jquery, PHP and JavaScript languages while engaging live with other students through Microsoft Teams and GitHub.</p>
                         <a href="#" class="da-link button">Read more</a>
                         <div class="da-img">
-                            <img src="images/Slider02.png" width="320" alt="image02">
+                            <img src="images/website.png" width="320" alt="image02">
                         </div>
                     </div>
                     <!-- End second slide -->
                     <!-- Start third slide -->
                     <div class="da-slide">
-                        <h2>Revolution</h2>
-                        <h4>Customizable</h4>
-                        <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+                        <h2>Github Project</h2>
+                        <h4>Learning Github and build a portfolio</h4>
+                        <p>Learn how to work on GitHub and along with other students, share your projects and collaborate while programming online. Create your own programs which could be used for other projects and build up your resume portfolio.</p>
                         <a href="#" class="da-link button">Read more</a>
                         <div class="da-img">
-                            <img src="images/Slider03.png" width="320" alt="image03">
+                            <img src="images/github.png" width="320" alt="image03">
                         </div>
                     </div>
                     <!-- Start third slide -->
@@ -912,6 +913,7 @@ planning	role	and	acts	for	the	board	of	directors	or	the	entire	club	between	mee
                         </ul>
                     </div>
                     </div>
+<!--
                 <div class="container">
                     <div class="span9 center contact-info">
                         <div class="title">
@@ -933,6 +935,7 @@ planning	role	and	acts	for	the	board	of	directors	or	the	entire	club	between	mee
                         </ul>
                     </div>
                 </div>
+-->
 <!--
                 <div class="centered">
                     <p class="price-text">We Offer Custom Plans. Contact Us For More Info.</p>
@@ -977,11 +980,10 @@ planning	role	and	acts	for	the	board	of	directors	or	the	entire	club	between	mee
                 <div class="container">
                     <div class="title">
                         <h1>Contact Us</h1>
-                        <p>Duis mollis placerat quam, eget laoreet tellus tempor eu. Quisque dapibus in purus in dignissim.</p>
+                        <p>Don't be shy, we don't bite.</p>
                     </div>
                 </div>
-                <div class="map-wrapper">
-                    <div class="map-canvas" id="map-canvas">Loading map...</div>
+                <div class="map-wrapper"> <!-- Display's the map (background img in css)-->
                     <div class="container">
                         <div class="row-fluid">
                             <div class="span5 contact-form centered">
@@ -989,30 +991,18 @@ planning	role	and	acts	for	the	board	of	directors	or	the	entire	club	between	mee
                                 <div id="successSend" class="alert alert-success invisible">
                                     <strong>Well done!</strong>Your message has been sent.</div>
                                 <div id="errorSend" class="alert alert-error invisible">There was an error.</div>
-                                <form id="contact-form" action="php/mail.php">
-                                    <div class="control-group">
+                                <form id="contact-form" action="https://formspree.io/xqkkwrqn" method="POST">
+                                    <label>
                                         <div class="controls">
-                                            <input class="span12" type="text" id="name" name="name" placeholder="* Your name..." />
-                                            <div class="error left-align" id="err-name">Please enter name.</div>
+                                        <input type="text" name="_replyto" placeholder="* Your email...">
                                         </div>
-                                    </div>
-                                    <div class="control-group">
+                                    </label>
+                                    <label>
                                         <div class="controls">
-                                            <input class="span12" type="email" name="email" id="email" placeholder="* Your email..." />
-                                            <div class="error left-align" id="err-email">Please enter valid email adress.</div>
+                                        <textarea name="message" placeholder="* Comments..."></textarea>
                                         </div>
-                                    </div>
-                                    <div class="control-group">
-                                        <div class="controls">
-                                            <textarea class="span12" name="comment" id="comment" placeholder="* Comments..."></textarea>
-                                            <div class="error left-align" id="err-comment">Please enter your comment.</div>
-                                        </div>
-                                    </div>
-                                    <div class="control-group">
-                                        <div class="controls">
-                                            <button id="send-mail" class="message-btn">Send message</button>
-                                        </div>
-                                    </div>
+                                    </label>
+                                    <button type="submit" class="message-btn">Send</button>
                                 </form>
                             </div>
                         </div>
