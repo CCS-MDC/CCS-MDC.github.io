@@ -329,7 +329,7 @@ p {
     padding:0;
     width:32px;
     height:32px;
-    color: #33C4FF;
+    color: #FFF;
 }
 .social li a:hover {
     color:#181A1C;
@@ -689,8 +689,12 @@ p {
  .contact {
     background:#181A1C;
 }
-.contact h1, .contact h2, .contact h3, .contact h4, .contact h5, .contact h6, .contact .section .title > p, .contact .social > li > a {
+.contact h1, .contact h2, .contact h4, .contact h5, .contact h6, .contact .section .title > p, .contact .social > li > a {
     color: #181A1C;
+}
+
+.icons h3{
+  color: #FFF;
 }
 .contact textarea, .contact input[type="text"], .contact input[type="email"] {
     padding: 10px;
@@ -700,7 +704,7 @@ p {
 .contact textarea {
     height: 120px;
 }
-.contacts, .contact .social {
+.contacts, .icons .social {
     color: #fff;
     list-style: none;
     margin-left: 10px;
@@ -740,26 +744,18 @@ p {
     height:100%;
     width:100%;
     position:absolute;
-
 }
 
 .contact .social {
     display: inline-block;
     margin-left:0;
 }
-.contact .social li {
+.contact .social li a{
     line-height: 32px;
     padding:10px 10px;
     font-family:'Porta';
     font-size: 50px;
-    transition: margin 0.4s;
-    -webkit-transition: margin 0.4s;
-}
-.contact .social li a {
-    color:#fff;
-}
-.contact .social li a:hover {
-    color:#181A1C;
+    color:#33c4ff;
 }
 .contact-form {
     background: #181a1c;
@@ -790,7 +786,7 @@ p {
     width:60%;
     margin:0 auto;
     padding:15px;
-    color:#181A1C;
+    color:#fff;
 }
 .black {
     color:#181A1C;
